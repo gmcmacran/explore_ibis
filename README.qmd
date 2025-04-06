@@ -1,6 +1,8 @@
 ---
 title: "Exploring Ibis"
-format: html
+format: 
+  gfm:
+    html-math-method: webtex
 ---
 
 Ibis is a datafame library instructions (code) are separated from computation (backends). For instructions, ibis is has a syntax very similar to dplyr. 

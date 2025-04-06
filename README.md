@@ -1,0 +1,14 @@
+# Exploring Ibis
+
+
+Ibis is a datafame library instructions (code) are separated from
+computation (backends). For instructions, ibis is has a syntax very
+similar to dplyr. For backends, ibis has high performance dataframe
+libraries, multiple RDBM systems, and multiple cloud environments
+(spark, snowflake, big query). In general, ibis code is easy to write,
+self-optimizing, and multi-threaded.
+
+This repo runs two benchmarks:
+
+- Is there a major difference in compute speed of the 3 local engines?
+- Can I use polars GPU functionality with ibis?
